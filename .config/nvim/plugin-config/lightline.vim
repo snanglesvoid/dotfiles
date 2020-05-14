@@ -57,3 +57,8 @@ endfunction
 
 
 command! -bar -bang LightlineColors call s:lightlineColors(<bang>0)
+
+
+" Tmuxline config
+
+let g:tmuxline_preset = 'minimal'

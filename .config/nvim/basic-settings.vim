@@ -22,6 +22,7 @@ set iskeyword+=-       " treat dash seperated words as a word text object
 set clipboard=unnamedplus " system clipboard integration (i.e \"+yy, \"+p etc)
 set mouse=a   " vi mouse support
 set signcolumn=yes  " always show signcolumns
+set cmdheight=2
 
 autocmd BufWinEnter *? set formatoptions-=cro
 " KEYBINDINGS

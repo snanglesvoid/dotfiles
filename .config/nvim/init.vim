@@ -3,10 +3,10 @@ if &compatible
 endif
 
 call plug#begin('~/.vim/plugged')
-  Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  "Plug 'scrooloose/nerdtree'
 
-  " Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+  " add file icons to browser (and lighline?)
   Plug 'ryanoasis/vim-devicons'
   "Plug 'airblade/vim-gitgutter'
 
