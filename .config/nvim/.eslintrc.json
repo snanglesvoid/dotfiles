@@ -1,0 +1,27 @@
+{
+  "env" : {
+    "node": true,
+    "commonjs": true,
+    "browser" : true,
+    "es6": true
+  },
+  "globals" : {
+    "window": "writable",
+    "console": "readonly",
+    "require": "readonly",
+    "__dirname" : "readonly",
+    "module" : "writable"
+  },
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": { "jsx" : true }
+  },
+  "rules": {
+    "semi": ["warn", "never"],
+    "quotes" : ["warn", "single"],
+    "for-direction" : ["off"],
+    "no-unused-vars": ["warn", {"args": "none"}]
+  }
+}

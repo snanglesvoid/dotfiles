@@ -1,0 +1,16 @@
+explorer
+format
+tsserver.goToProjectConfig
+markdownlint.fixAll
+python.startREPL
+python.execInTerminal
+pep8
+python.format
+python.setLinter
+tslint.fixAllProblems
+tslint.lintProject
+tslint.lintFile
+tslint.run
+tslint.createConfig
+prettier.formatFile
+prettier.format
