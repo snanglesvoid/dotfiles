@@ -20,6 +20,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'christoomey/vim-tmux-navigator'
   Plug 'bdauria/angular-cli.vim'
   Plug 'itchyny/lightline.vim' " Status Line
+  Plug 'edkolev/tmuxline.vim' " Status Line Tmux integration
   Plug 'junegunn/fzf', { 'do' : { -> fzf#install()}}
   Plug 'junegunn/fzf.vim'
   Plug 'airblade/vim-rooter'
